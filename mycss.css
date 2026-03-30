@@ -1,0 +1,155 @@
+
+header {
+    background-color: rgb(222, 234, 244);
+}
+
+.bgimg {
+    background-image: url(./image\ and\ video/sss.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one {
+    padding-top: 22% !important;
+    padding-bottom: 25%;
+
+}
+
+.scroll {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20%;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+}
+
+.nopadding {
+    padding: 0%;
+}
+
+.two {
+    position: absolute;
+    transform: translateY(-165%);
+    padding-left: 35%;
+    padding-right: 35%;
+    height: 25vw;
+    overflow: scroll;
+
+}
+
+.two h1 {
+    padding-bottom: 8%;
+}
+
+.three {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bgimg-four {
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 1) 100%),
+        url(./image\ and\ video/sss.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+#Setting h1 {
+    /* background-color: yellowgreen; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.colright {
+    padding-right: 15%;
+    background-image: url(./image\ and\ video/File_001.png);
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-position: left;
+    padding-left: 5%;
+}
+
+.story {
+
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 8%;
+
+}
+
+
+.horizontal {
+    display: flex;
+    gap: 1.5%;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+    padding-top: 8%;
+    background-color: antiquewhite;
+}
+
+.views {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+.haha {
+    opacity: 0.5;
+    position: relative;
+    left: 80%;
+    /* transform: translateX(-50%); */
+}
+
+.five {
+    position: absolute;
+    transform: translateY(-130%);
+    padding-right: 10%;
+    
+}
+
+/* this is formed by copilot ai */
+/* Counter 容器 */
+.counter {
+    width: 150px;
+    height: 50px;
+    /* margin: 20px auto; */
+    background: url(./image\ and\ video/number.png) no-repeat;
+    /* 這張圖片要事先準備好，裡面排好 0–100 的數字 */
+    animation: count 3s steps(100) forwards;
+}
+
+/* 播放動畫：逐步切換背景位置 */
+@keyframes count {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -4850px 0;
+    }
+
+    /* 根據 sprite 寬度調整 */
+}
